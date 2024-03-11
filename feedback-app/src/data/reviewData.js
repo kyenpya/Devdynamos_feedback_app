@@ -2,17 +2,17 @@ const reviewData = [
     {
       id: 1,
       rating: 7,
-      text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit'
+      text: 'Ayo is a wonderful instructor!'
     },
     {
       id: 2,
       rating: 8,
-      text: 'This is a Global state data, set in the App component'
+      text: 'DevDynamos are absolutely the best group in the class!'
     },
     {
       id: 3,
       rating: 7,
-      text: 'This is another rating, in the review data file.'
+      text: 'React is reacting our brains!'
     }
   ]
 

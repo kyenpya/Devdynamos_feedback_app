@@ -11,7 +11,7 @@ function Home() {
     <>
       <div className="container">
         <div className="card">
-            <h1 className="head">Welcome to Group B Company</h1>
+            <h1 className="head">Hi! We are DevDynamos.</h1>
             <p>Thank you for using our product</p>
             <p>We would like you to give a review about your last experience using our product</p>
             <br /><br />

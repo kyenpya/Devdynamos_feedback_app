@@ -50,6 +50,10 @@ header {
   position: relative;
 }
 
+.card p {
+  margin-top: 20px;
+}
+
 .card-container {
   display: flex;
   flex-direction: column;
