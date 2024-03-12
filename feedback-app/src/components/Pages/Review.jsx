@@ -21,7 +21,7 @@ function Review() {
     <>
       <ReviewForm handleAdd={AddReview} />
 
-      <div className="house-link">
+      <div className="home-link">
         <Link to="/">
           <FaHouseDamage size={40} />
         </Link>

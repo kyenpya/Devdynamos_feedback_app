@@ -18,7 +18,7 @@ const AllReviews = () => {
   
     return (
       <div className="container">
-        <Button variant="secondary" onClick={() => navigate('/review')}><IoIosArrowDropleft /> Go Back</Button>
+        <Button variant="secondary" onClick={() => navigate('/review')}><IoIosArrowDropleft />Back to Review</Button>
         <ReviewStats reviews={review} />
         <ReviewList reviews={review} deleteReview={deleteReview} />
       </div>

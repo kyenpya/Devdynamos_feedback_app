@@ -211,27 +211,24 @@ input:focus {
   text-align: center;
   color: #ff6a95;
 }
-
-/* FIX: Remove position: absolute to keep about icon at the bottom of the
- * document */
+ 
 .about-link {
   display: flex;
   justify-content: flex-end;
 }
 
-.house-link {
+.home-link {
   display: flex;
   justify-content: flex-end;
   padding-right: 20px;
 }
-/* FIX: Remove position: absolute to keep about icon at the bottom of the
- * document */
-.about-link a, .house-link a {
+ 
+.about-link a, .home-link a {
   color: #ccc;
   cursor: pointer;
 }
 
-.about-link a:hover, .house-link a:hover {
+.about-link a:hover, .home-link a:hover {
   color: #ff6a95;
 }
 
@@ -293,11 +290,11 @@ input:focus {
 }
 
 
-@media (min-width: 900px) and (max-width: 2560px) {
+@media (min-width: 56.25rem) and (max-width: 160rem) {
   .card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    gap: 1.5625rem;
   }
   
   .review {
@@ -306,12 +303,12 @@ input:focus {
   }
 
   .container {
-    max-width: 2560px;
+    max-width: 160rem;
     margin: auto;
     padding: 20px 80px;
   }
 
-  .house-link {
+  .home-link {
     display: flex;
     justify-content: flex-end;
     padding-right: 80px;
